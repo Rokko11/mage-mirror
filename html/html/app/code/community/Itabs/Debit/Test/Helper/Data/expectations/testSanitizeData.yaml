@@ -1,8 +1,0 @@
-sanitize_strings:
-  space: "TestSpace"
-  dash: "TestDash"
-  underscore: "TestUnderscore"
-  dot: "TestDot"
-  semicolon: "TestSemicolon"
-  slash: "TestSlash"
-  pipe: "TestPipe"

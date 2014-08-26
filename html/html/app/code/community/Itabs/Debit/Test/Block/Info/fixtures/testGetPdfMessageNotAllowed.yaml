@@ -1,2 +1,0 @@
-config:
-  default/payment/debit/print_debit_message_pdf: 0

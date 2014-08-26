@@ -1,4 +1,0 @@
-sanitize_strings:
-  umlaut: "Max Mueller"
-  and: "Max + Moritz"
-  at: "testattest.de"
