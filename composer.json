@@ -1,0 +1,10 @@
+{
+	"name": "Rokko11/mage-mirror",
+	"license": ["OSL-3.0"],
+	"type": "magento-module",
+	"description": "A repository just with original Magento-sources",
+	"homepage": "https://github.com/Rokko11/mage-mirror",
+	"require": {
+		"magento-hackathon/magento-composer-installer": "*"
+	}
+}
