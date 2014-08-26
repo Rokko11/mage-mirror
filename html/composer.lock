@@ -1,0 +1,891 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "410d2b84fdcb1146a25c951f6b41b12f",
+    "packages": [
+        {
+            "name": "connect20/DerModPro_BasePrice",
+            "version": "0.3.0",
+            "dist": {
+                "type": "tar",
+                "url": "http://connect20.magentocommerce.com/community/DerModPro_BasePrice/0.3.0/DerModPro_BasePrice-0.3.0.tgz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "extra": {
+                "package-xml": "package.xml"
+            },
+            "license": [
+                "OSL-v3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Vinai Kopp",
+                    "email": "info@der-modulprogrammierer.de"
+                }
+            ],
+            "description": "This extension enables you to display the base price for products.  E.g. if you sell\ndifferent quantities of oil, you can enter the amount each bottle contains (like 250ml)\nand a reference unit (like liter), and the price per liter is calculated and displayed."
+        },
+        {
+            "name": "eloquent/composer-config-reader",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eloquent/composer-config-reader.git",
+                "reference": "b79319806e1bcc101c89a023b3aeee9e5931e463"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eloquent/composer-config-reader/zipball/b79319806e1bcc101c89a023b3aeee9e5931e463",
+                "reference": "b79319806e1bcc101c89a023b3aeee9e5931e463",
+                "shasum": ""
+            },
+            "require": {
+                "eloquent/enumeration": "~5",
+                "eloquent/liberator": "~1",
+                "icecave/isolator": "~2",
+                "justinrainbow/json-schema": "~1",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "icecave/archer": "~1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Eloquent\\Composer\\Configuration\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erin Millard",
+                    "email": "ezzatron@gmail.com",
+                    "homepage": "http://ezzatron.com/"
+                }
+            ],
+            "description": "A light-weight component for reading Composer configuration files.",
+            "homepage": "https://github.com/eloquent/composer-config-reader",
+            "keywords": [
+                "composer",
+                "configuration",
+                "parser",
+                "reader"
+            ],
+            "time": "2014-01-22 01:05:31"
+        },
+        {
+            "name": "eloquent/enumeration",
+            "version": "5.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eloquent/enumeration.git",
+                "reference": "9c50109cf25b2008b9b8233b814e50e0cdf8b737"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eloquent/enumeration/zipball/9c50109cf25b2008b9b8233b814e50e0cdf8b737",
+                "reference": "9c50109cf25b2008b9b8233b814e50e0cdf8b737",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "icecave/archer": "~1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Eloquent\\Enumeration\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erin Millard",
+                    "email": "ezzatron@gmail.com",
+                    "homepage": "http://ezzatron.com/"
+                }
+            ],
+            "description": "An enumeration implementation for PHP.",
+            "homepage": "https://github.com/eloquent/enumeration",
+            "keywords": [
+                "class",
+                "enum",
+                "enumeration",
+                "multiton",
+                "set",
+                "type"
+            ],
+            "time": "2014-03-13 01:16:59"
+        },
+        {
+            "name": "eloquent/liberator",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eloquent/liberator.git",
+                "reference": "a85435066850ab47acc61296c5d20732ff4c9655"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eloquent/liberator/zipball/a85435066850ab47acc61296c5d20732ff4c9655",
+                "reference": "a85435066850ab47acc61296c5d20732ff4c9655",
+                "shasum": ""
+            },
+            "require": {
+                "eloquent/pops": "~3",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "icecave/archer": "~0.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Eloquent\\Liberator": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erin Millard",
+                    "email": "ezzatron@gmail.com",
+                    "homepage": "http://ezzatron.com/"
+                }
+            ],
+            "description": "A proxy for circumventing PHP access modifier restrictions.",
+            "homepage": "https://github.com/eloquent/liberator",
+            "keywords": [
+                "access",
+                "modifier",
+                "object",
+                "private",
+                "protected",
+                "proxy",
+                "reflection"
+            ],
+            "time": "2013-03-03 23:02:47"
+        },
+        {
+            "name": "eloquent/pops",
+            "version": "3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eloquent/pops.git",
+                "reference": "b14090a3478f544d1b3a3b9389cb03415cf4f37f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eloquent/pops/zipball/b14090a3478f544d1b3a3b9389cb03415cf4f37f",
+                "reference": "b14090a3478f544d1b3a3b9389cb03415cf4f37f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "icecave/archer": "~0.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Eloquent\\Pops": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erin Millard",
+                    "email": "ezzatron@gmail.com",
+                    "homepage": "http://ezzatron.com/"
+                }
+            ],
+            "description": "PHP object proxy system.",
+            "homepage": "https://github.com/eloquent/pops",
+            "keywords": [
+                "escaping",
+                "object",
+                "proxy"
+            ],
+            "time": "2013-03-04 10:10:43"
+        },
+        {
+            "name": "firegento/magesetup",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/firegento/firegento-magesetup.git",
+                "reference": "3d79deb88995517dc00d302bba704a33c43dd8ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/firegento/firegento-magesetup/zipball/3d79deb88995517dc00d302bba704a33c43dd8ea",
+                "reference": "3d79deb88995517dc00d302bba704a33c43dd8ea",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "require-dev": {
+                "ecomdev/mage-ci": "master-dev"
+            },
+            "type": "magento-module",
+            "extra": {
+                "magento-root-dir": "test/",
+                "magento_connect": {
+                    "name": "FireGento_MageSetup",
+                    "summary": "MageSetup configures a shop for a national market. It creates configuration and tax settings, email templates, cms blocks and pages.",
+                    "channel": "community",
+                    "php_min": "5.3.0",
+                    "php_max": "7.9.9",
+                    "stability": "stable",
+                    "license_uri": "http://www.gnu.org/licenses/gpl-3.0.html",
+                    "content": [
+                        {
+                            "type": "magecommunity",
+                            "structure": "dir",
+                            "path": "FireGento/MageSetup"
+                        },
+                        {
+                            "type": "mageetc",
+                            "structure": "file",
+                            "path": "modules/FireGento_MageSetup.xml"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "file",
+                            "path": "de_AT/FireGento_MageSetup.csv"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "dir",
+                            "path": "de_CH/template/magesetup"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "file",
+                            "path": "de_DE/FireGento_MageSetup.csv"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "dir",
+                            "path": "de_DE/template/magesetup"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "file",
+                            "path": "en_US/FireGento_MageSetup.csv"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "dir",
+                            "path": "en_US/template/magesetup"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "file",
+                            "path": "ru_RU/FireGento_MageSetup.csv"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "dir",
+                            "path": "ru_RU/template/magesetup"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "dir",
+                            "path": "fr_CH/template/magesetup"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "file",
+                            "path": "fr_FR/FireGento_MageSetup.csv"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "dir",
+                            "path": "fr_FR/template/magesetup"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "file",
+                            "path": "it_IT/FireGento_MageSetup.csv"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "dir",
+                            "path": "it_IT/template/magesetup"
+                        },
+                        {
+                            "type": "magedesign",
+                            "structure": "file",
+                            "path": "adminhtml/default/default/layout/magesetup.xml"
+                        },
+                        {
+                            "type": "magedesign",
+                            "structure": "dir",
+                            "path": "adminhtml/default/default/template/magesetup"
+                        },
+                        {
+                            "type": "magedesign",
+                            "structure": "file",
+                            "path": "frontend/base/default/layout/magesetup.xml"
+                        },
+                        {
+                            "type": "magedesign",
+                            "structure": "dir",
+                            "path": "frontend/base/default/template/magesetup"
+                        },
+                        {
+                            "type": "mageskin",
+                            "structure": "dir",
+                            "path": "frontend/base/default/css/magesetup"
+                        }
+                    ]
+                }
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Team FireGento",
+                    "email": "team@firegento.com"
+                }
+            ],
+            "description": "<p>Central features of MageSetup are:</p><ul><li>Setting of important configuration settings</li><li>Predefined tax settings and tax classes for shipping from several countries to worldwide destinations</li><li>Assign new tax classes to all products (configurable)</li><li>Creation of email templates based on the local language pack. Legal texts can be added to some templates automatically.</li><li>Creation and Activation of Checkout Agreements. Agreements can be shown at customer registration instead of or additional to the checkout. They can be required or not.</li><li>Creation of default CMS pages like imprint, terms and conditions, privacy, shipping, payment methods.</li><li>Create email templates, cms pages and blocks as well as checkout agreements for store views with a different language as well</li><li>Possibility to add tax and/or shipping info to all prices</li><li>Automatical generation of meta data to products</li><li>Saving of every status change of newsletter subscriptions</li><li>Presets are configurable via xml files for every country seperately</li><li>Many more, see the <a href=\"https://github.com/firegento/firegento-magesetup/blob/development/docs/features/features.markdown\">full list of features</a> including several screenshots.</li></ul>",
+            "homepage": "https://github.com/firegento/firegento-magesetup",
+            "support": {
+                "source": "https://github.com/firegento/firegento-magesetup/tree/master",
+                "issues": "https://github.com/firegento/firegento-magesetup/issues"
+            },
+            "time": "2014-02-17 16:37:12"
+        },
+        {
+            "name": "firegento/pdf",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/firegento/firegento-pdf.git",
+                "reference": "37ec1a964a1fc72140869c35b7a38c0a2f4382b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/firegento/firegento-pdf/zipball/37ec1a964a1fc72140869c35b7a38c0a2f4382b3",
+                "reference": "37ec1a964a1fc72140869c35b7a38c0a2f4382b3",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "FireGento Pdf overwrites standard PDF layouts for invoices and shipments.",
+            "homepage": "https://github.com/firegento/firegento-pdf",
+            "support": {
+                "source": "https://github.com/firegento/firegento-pdf/tree/master",
+                "issues": "https://github.com/firegento/firegento-pdf/issues"
+            },
+            "time": "2014-01-27 16:13:27"
+        },
+        {
+            "name": "icecave/isolator",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IcecaveStudios/isolator.git",
+                "reference": "97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/IcecaveStudios/isolator/zipball/97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5",
+                "reference": "97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "icecave/archer": "~1"
+            },
+            "suggest": {
+                "eloquent/asplode": "Drop-in exception-based error handling."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Icecave\\Isolator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Harris",
+                    "email": "james.harris@icecave.com.au",
+                    "homepage": "https://github.com/jmalloc"
+                }
+            ],
+            "description": "Dependency injection for global functions.",
+            "homepage": "https://github.com/IcecaveStudios/isolator",
+            "keywords": [
+                "fake",
+                "mock",
+                "phake",
+                "phpunit",
+                "test",
+                "unit"
+            ],
+            "time": "2014-08-12 03:16:11"
+        },
+        {
+            "name": "justinrainbow/json-schema",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/justinrainbow/json-schema.git",
+                "reference": "87b54b460febed69726c781ab67462084e97a105"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/87b54b460febed69726c781ab67462084e97a105",
+                "reference": "87b54b460febed69726c781ab67462084e97a105",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "json-schema/json-schema-test-suite": "1.1.0",
+                "phpdocumentor/phpdocumentor": "~2",
+                "phpunit/phpunit": "~3.7"
+            },
+            "bin": [
+                "bin/validate-json"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "JsonSchema": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Prieto Reis",
+                    "email": "bruno.p.reis@gmail.com"
+                },
+                {
+                    "name": "Justin Rainbow",
+                    "email": "justin.rainbow@gmail.com"
+                },
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch"
+                },
+                {
+                    "name": "Robert Schönthal",
+                    "email": "seroscho@googlemail.com"
+                }
+            ],
+            "description": "A library to validate a json schema.",
+            "homepage": "https://github.com/justinrainbow/json-schema",
+            "keywords": [
+                "json",
+                "schema"
+            ],
+            "time": "2014-08-25 02:48:14"
+        },
+        {
+            "name": "magento-hackathon/magento-composer-installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-hackathon/magento-composer-installer.git",
+                "reference": "fdc0ba937a8a2060d1a8af0140d8f2a4e732be9f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-hackathon/magento-composer-installer/zipball/fdc0ba937a8a2060d1a8af0140d8f2a4e732be9f",
+                "reference": "fdc0ba937a8a2060d1a8af0140d8f2a4e732be9f",
+                "shasum": ""
+            },
+            "archive": {
+                "exclude": [
+                    "vendor",
+                    "/tests/FullStackTest/"
+                ]
+            },
+            "require": {
+                "composer-plugin-api": "1.0.0",
+                "eloquent/composer-config-reader": "2.*"
+            },
+            "require-dev": {
+                "composer/composer": "*@dev",
+                "firegento/phpcs": "dev-patch-1",
+                "mikey179/vfsstream": "*",
+                "phpunit/phpunit": "*",
+                "phpunit/phpunit-mock-objects": "dev-master",
+                "squizlabs/php_codesniffer": "1.4.7",
+                "symfony/process": "*"
+            },
+            "suggest": {
+                "colinmollenhour/modman": "*",
+                "magento-hackathon/composer-command-integrator": "*",
+                "theseer/autoload": "~1.14",
+                "zetacomponents/console-tools": "dev-master"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "composer-command-registry": [
+                    "MagentoHackathon\\Composer\\Magento\\Command\\DeployCommand"
+                ],
+                "class": "MagentoHackathon\\Composer\\Magento\\Plugin"
+            },
+            "autoload": {
+                "psr-0": {
+                    "MagentoHackathon\\Composer\\Magento": "src/"
+                }
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Fahlke aka Flyingmana",
+                    "email": "flyingmana@googlemail.com"
+                },
+                {
+                    "name": "Jörg Weller",
+                    "email": "weller@flagbit.de"
+                },
+                {
+                    "name": "Karl Spies",
+                    "email": "karl.spies@gmx.net"
+                },
+                {
+                    "name": "Tobias Vogt",
+                    "email": "tobi@webguys.de"
+                },
+                {
+                    "name": "David Fuhr",
+                    "email": "fuhr@flagbit.de"
+                },
+                {
+                    "name": "Vinai Kopp",
+                    "email": "vinai@netzarbeiter.com"
+                }
+            ],
+            "description": "Composer installer for Magento modules",
+            "homepage": "https://github.com/magento-hackathon/magento-composer-installer",
+            "keywords": [
+                "composer-installer",
+                "magento"
+            ],
+            "support": {
+                "source": "https://github.com/magento-hackathon/magento-composer-installer/tree/master",
+                "issues": "https://github.com/magento-hackathon/magento-composer-installer/issues"
+            },
+            "time": "2014-08-24 07:11:40"
+        },
+        {
+            "name": "magento/better-install",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@git.intern.iwelt.de:magento/better-install.git",
+                "reference": "6289aa33669762d198cec903dd1b04f31e7e0cf0"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Richard Vogel",
+                    "email": "richard.vogel@iwelt.de"
+                }
+            ],
+            "description": "Einfachere Install-Oberfläche",
+            "time": "2014-08-25 13:28:35"
+        },
+        {
+            "name": "magento/cap-deployment",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@git.intern.iwelt.de:magento/cap-deployment.git",
+                "reference": "49fb9a2ba79f706399e28c0a4cd13f4296379b7c"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Hanna-Sophie Ungar",
+                    "email": "hanna-sophie.ungar@iwelt.de"
+                },
+                {
+                    "name": "Richard Vogel",
+                    "email": "richard.vogel@iwelt.de"
+                }
+            ],
+            "description": "Template für Cap-Deployment",
+            "time": "2014-08-22 10:04:59"
+        },
+        {
+            "name": "magento/core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@git.intern.iwelt.de:richard.vogel/magento-test-composer.git",
+                "reference": "8215f87aafc63ad103de4d9fe296b8d180fd8598"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-core",
+            "extra": {
+                "magento-root-dir": "root/"
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "description": "Magento Core",
+            "homepage": "http://www.magentocommerce.com",
+            "time": "2014-08-26 11:49:24"
+        },
+        {
+            "name": "riconeitzel/german-localepack-de-de",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/riconeitzel/German_LocalePack_de_DE.git",
+                "reference": "d6600086c2a9affe1c8b03d9c32ed4a0a7970fc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/riconeitzel/German_LocalePack_de_DE/zipball/d6600086c2a9affe1c8b03d9c32ed4a0a7970fc7",
+                "reference": "d6600086c2a9affe1c8b03d9c32ed4a0a7970fc7",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rico Neitzel"
+                }
+            ],
+            "description": "German Community Translation",
+            "support": {
+                "source": "https://github.com/riconeitzel/German_LocalePack_de_DE/tree/1.9.0.1.0",
+                "issues": "https://github.com/riconeitzel/German_LocalePack_de_DE/issues"
+            },
+            "time": "2014-06-02 13:08:17"
+        },
+        {
+            "name": "therouv/debitpayment",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/therouv/Magento-DebitPayment.git",
+                "reference": "2f7153c1263e98273fef6390e96546e0ac89ddae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/therouv/Magento-DebitPayment/zipball/2f7153c1263e98273fef6390e96546e0ac89ddae",
+                "reference": "2f7153c1263e98273fef6390e96546e0ac89ddae",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "require-dev": {
+                "firegento/mage-ci": "master-dev",
+                "phpunit/phpunit": "4.1.*@dev"
+            },
+            "type": "magento-module",
+            "extra": {
+                "magento-root-dir": "test/",
+                "magento_connect": {
+                    "name": "DebitPayment",
+                    "real_module_name": "Itabs_Debit",
+                    "license_uri": "http://opensource.org/licenses/osl-3.0.php",
+                    "channel": "community",
+                    "php_min": "5.3.0",
+                    "php_max": "6.0.0",
+                    "stability": "stable",
+                    "content": [
+                        {
+                            "type": "magecommunity",
+                            "structure": "dir",
+                            "path": "/Itabs/Debit"
+                        },
+                        {
+                            "type": "mageetc",
+                            "structure": "file",
+                            "path": "/modules/Itabs_Debit.xml"
+                        },
+                        {
+                            "type": "magedesign",
+                            "structure": "file",
+                            "path": "/adminhtml/default/default/layout/debit.xml"
+                        },
+                        {
+                            "type": "magedesign",
+                            "structure": "dir",
+                            "path": "/adminhtml/default/default/template/debit/"
+                        },
+                        {
+                            "type": "magedesign",
+                            "structure": "file",
+                            "path": "/frontend/base/default/layout/debit.xml"
+                        },
+                        {
+                            "type": "magedesign",
+                            "structure": "dir",
+                            "path": "/frontend/base/default/template/debit/"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "file",
+                            "path": "/de_DE/Itabs_Debit.csv"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "file",
+                            "path": "/en_US/Itabs_Debit.csv"
+                        },
+                        {
+                            "type": "mage",
+                            "structure": "file",
+                            "path": "/js/itabs/debit/blzcheck.js"
+                        },
+                        {
+                            "type": "magelib",
+                            "structure": "dir",
+                            "path": "/DTA"
+                        },
+                        {
+                            "type": "mageskin",
+                            "structure": "file",
+                            "path": "/frontend/base/default/css/debit.css"
+                        }
+                    ]
+                }
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rouven Alexander Rieker",
+                    "email": "therouv@googlemail.com"
+                }
+            ],
+            "description": "Provides the payment method DebitPayment",
+            "homepage": "https://github.com/therouv/Magento-DebitPayment",
+            "support": {
+                "source": "https://github.com/therouv/Magento-DebitPayment/tree/1.1.2",
+                "issues": "https://github.com/therouv/Magento-DebitPayment/issues"
+            },
+            "time": "2014-08-15 12:41:54"
+        },
+        {
+            "name": "tim-reynolds/magento-qconfig",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tim-reynolds/magento-qconfig.git",
+                "reference": "f810f7ba689f7a088081696944377a6eb2b80964"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tim-reynolds/magento-qconfig/zipball/f810f7ba689f7a088081696944377a6eb2b80964",
+                "reference": "f810f7ba689f7a088081696944377a6eb2b80964",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Reynolds"
+                }
+            ],
+            "description": "Magento config quick search",
+            "homepage": "https://github.com/tim-reynolds/",
+            "support": {
+                "source": "https://github.com/tim-reynolds/magento-qconfig/tree/1.0",
+                "issues": "https://github.com/tim-reynolds/magento-qconfig/issues"
+            },
+            "time": "2013-07-31 19:42:16"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ],
+    "prefer-stable": false,
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

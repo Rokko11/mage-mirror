@@ -1,0 +1,35 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+	"magento/core": "*",
+        "magento/cap-deployment": "*",
+        "magento/better-install": "*",
+        "riconeitzel/german-localepack-de-de": "*",
+        "firegento/magesetup": "*",
+        "firegento/pdf": "*",
+        "connect20/dermodpro_baseprice": "*",
+        "therouv/debitpayment": "*",
+        "tim-reynolds/magento-qconfig": "*"
+    },
+    "repositories": [
+	{
+	    "type": "vcs",
+	    "url": "git@git.intern.iwelt.de:richard.vogel/magento-test-composer.git"
+	},
+        {
+            "type": "vcs",
+            "url": "git@git.intern.iwelt.de:magento/cap-deployment.git"
+        },{
+            "type": "vcs",
+            "url": "git@git.intern.iwelt.de:magento/better-install.git"
+        },{
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        }
+    ],
+    "extra": {
+        "magento-root-dir": "./html/",
+        "magento-deploystrategy": "copy",
+        "magento-force": "true"
+    }
+}

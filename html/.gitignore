@@ -1,0 +1,8 @@
+html/var
+html/sitemap.xml
+html/media
+*.cfg
+html/app/etc/local.xml
+html/downloader/.cache
+*.iml
+vendor

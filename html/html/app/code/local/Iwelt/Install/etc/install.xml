@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <wizard>
+        <steps>
+            <end translate="code">
+                <code>What TODO next?</code>
+                <controller>wizard</controller>
+                <action>todo</action>
+            </end>
+        </steps>
+    </wizard>
+</config>
