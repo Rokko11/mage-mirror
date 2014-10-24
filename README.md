@@ -13,7 +13,7 @@ Create a `composer.json` like this and run `composer update`
 ```
 {
     "require": {
-        "Rokko11/mage-mirror": "1.9.0.1"
+        "rokko11/mage-mirror": "1.9.0.1"
     },
     "repositories": [
         {
