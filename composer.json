@@ -1,5 +1,5 @@
 {
-	"name": "Rokko11/mage-mirror",
+	"name": "rokko11/mage-mirror",
 	"license": ["OSL-3.0"],
 	"type": "magento-module",
 	"description": "A repository just with original Magento-sources",
